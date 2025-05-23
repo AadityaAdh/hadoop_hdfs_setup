@@ -1,6 +1,6 @@
 # HADOOP HDFS SETUP
 
-## step 1-install sudo 
+## install sudo 
 
     apt update && apt install sudo
 
@@ -46,6 +46,7 @@ then for every worker node ,execute the following command from master
 ## configurations file
 
 Core-site.xml
+
     <configuration>
         <property>
             <name>fs.defaultFS</name>
