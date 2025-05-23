@@ -48,6 +48,8 @@ then for every worker node ,execute the following command from master
 Core-site.xml
 
     <configuration>
+
+
         <property>
             <name>fs.defaultFS</name>
             <value>hdfs://master_machine_ip:9000</value>
@@ -56,6 +58,8 @@ Core-site.xml
 
 
 Hdfs-site.xml
+
+
     <configuration>
 
         <property>
